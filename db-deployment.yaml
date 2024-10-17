@@ -22,3 +22,9 @@ spec:
         env:
           - name: MYSQL_RANDOM_ROOT_PASSWORD
             value: "yes"
+          - name: MYSQL_DATABASE
+            value: "wordpress"
+          - name: MYSQL_USER
+            value: "wordpress"
+          - name: MYSQL_PASSWORD
+            value: "secretpassword"
